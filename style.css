@@ -9,7 +9,7 @@
   height: 400px;
 }
 .container {
-  margin-left: 230px;
+  margin-left: 120px;
   display: flex;
   align-items: center;
   flex-wrap: nowrap;
@@ -19,16 +19,36 @@
 }
 .button {
   margin-left: 40px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #363940;
 }
 .knop {
-  margin-left: 100px;
+  margin-left: 80px;
   margin-right: 27px;
 }
 .input {
   margin-left: 39px;
   padding-top: 12px;
   padding-bottom: 12px;
-  padding-left: 45px;
   padding-right: 42px;
-  mask: 100px;
+  mask-image: url(./Mask.svg);
+  mask-position: 12px;
+  outline: none;
+  position: relative;
+  border: none;
+}
+.Knopka {
+  width: 300px;
+  display: flex;
+  border: 1px solid;
+  margin-left: 24px;
+  outline: none;
+  border: 1px solid #cad1e1;
+  border-radius: 4px;
 }
